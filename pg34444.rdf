@@ -1,66 +1,161 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
-  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
-  xmlns:cc="http://web.resource.org/cc/"
-  xmlns:dcam="http://purl.org/dc/dcam/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+  xmlns:cc="http://web.resource.org/cc/"
   xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+  xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <pgterms:ebook rdf:about="ebooks/34444">
-    <dcterms:rights>Public domain in the USA.</dcterms:rights>
-    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/34444/34444.txt">
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/34444/34444-8.zip">
         <dcterms:isFormatOf rdf:resource="ebooks/34444"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1129166</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-11-25T14:23:12</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">381267</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nb4c2971c7ea746988f1446a24edf1803">
+          <rdf:Description rdf:nodeID="N405cf168a2af4f7faf3c8d318aaaf775">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-11-25T14:23:16</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N5c2fa509d3ee4da086613fc876c93a18">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-11-25</dcterms:issued>
+    <dcterms:title>The Story of the Great War, Volume 8&#13;
+Victory with the Allies; Armistice; Peace Congress; Canada's War Organizations and vast War Industries; Canadian Battles Overseas</dcterms:title>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/34444.kindle.noimages">
-        <dcterms:isFormatOf rdf:resource="ebooks/34444"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">688028</dcterms:extent>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1958014</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N75264dbf6cbf43559dee683d684685d0">
+          <rdf:Description rdf:nodeID="N6653c9fad6744360a0dc51f18b930109">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/34444"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-17T02:29:48.471101</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <marcrel:edt>
+      <pgterms:agent rdf:about="2009/agents/4145">
+        <pgterms:name>Reynolds, Francis J. (Francis Joseph)</pgterms:name>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1867</pgterms:birthdate>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1937</pgterms:deathdate>
+      </pgterms:agent>
+    </marcrel:edt>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/34444/34444.txt">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1129166</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-11-25T14:23:12</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/34444"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N9872c6ac205a4ffcba1f30273cac6517">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="N6e8c5685d4b54b4fb9b1ba38361e8165">
+        <rdf:value>Text</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+      </rdf:Description>
+    </dcterms:type>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Na1eeb975b22d41d68bdfe48c0b9f81f4">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>World War, 1914-1918</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-11-25</dcterms:issued>
+    <marcrel:edt>
+      <pgterms:agent rdf:about="2009/agents/309">
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1877</pgterms:birthdate>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1959</pgterms:deathdate>
+        <pgterms:name>Miller, Francis Trevelyan</pgterms:name>
+        <pgterms:alias>Miller, Francis T.</pgterms:alias>
+      </pgterms:agent>
+    </marcrel:edt>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/34444.epub.images">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-17T02:29:36.111294</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/34444"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1554535</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N7a52b068923f45468bc7c9cebd6b2a21">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57</pgterms:downloads>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N482d6e3670e045cd8c166f7fc10f4eca">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+        <rdf:value>D501</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/34444/34444-h.zip">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5887736</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nde41104d76474d448a2c6530da562c47">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/34444"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N1d0f8a4d5ce2406580843a9046f9cf7f">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-11-25T14:23:18</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <pgterms:bookshelf>
+      <rdf:Description rdf:nodeID="N93169bd1a96948a9886f0b3e65fb220e">
+        <rdf:value>World War I</rdf:value>
+        <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
+      </rdf:Description>
+    </pgterms:bookshelf>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/34444.kindle.images">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4142235</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-17T02:29:43.024204</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/34444"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N784c4984215e427881679bc69e23fdc7">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-11-27T03:13:08.401474</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:language>
-      <rdf:Description rdf:nodeID="N652318243ca0453f93cc0be79c523ceb">
-        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
-      </rdf:Description>
-    </dcterms:language>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/34444.txt.utf-8">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N92bfd8f6dbf94c82a9cbf89e1198287e">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
+          <rdf:Description rdf:nodeID="Nd8def10a166e4e9b89dbf2453662557c">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1129351</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-17T02:29:34.404331</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/34444"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-11-27T03:12:41.720177</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1129355</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:creator>
-      <pgterms:agent rdf:about="2009/agents/116">
-        <pgterms:name>Various</pgterms:name>
-        <pgterms:alias>Verschillende</pgterms:alias>
-      </pgterms:agent>
-    </dcterms:creator>
     <marcrel:edt>
       <pgterms:agent rdf:about="2009/agents/6758">
         <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1873</pgterms:birthdate>
@@ -68,180 +163,87 @@
       </pgterms:agent>
     </marcrel:edt>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/34444.kindle.images">
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/34444.rdf">
         <dcterms:isFormatOf rdf:resource="ebooks/34444"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14054</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nd84a6a61dec244788f5683f71968f07e">
+          <rdf:Description rdf:nodeID="N5b632d37321c4b7ba5e180f9701ddeb9">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-11-27T03:13:13.562300</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1716512</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-17T02:29:48.830087</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="N49246c3965134d2098a28cc8e88c5426">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/34444/34444.zip">
-        <dcterms:isFormatOf rdf:resource="ebooks/34444"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-11-25T14:23:16</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nc27ddc6d843549e5a7a8d39078dcbb56">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nd822d82a037e40e78094be8a8afeae61">
+          <rdf:Description rdf:nodeID="Naca50d43edbb47d6bd9d0508f9846694">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">381031</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:type>
-      <rdf:Description rdf:nodeID="Nf88188ac02bb4ad79de3ff22f54530b7">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
-        <rdf:value>Text</rdf:value>
-      </rdf:Description>
-    </dcterms:type>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/34444.qioo">
         <dcterms:isFormatOf rdf:resource="ebooks/34444"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">443593</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-11-27T03:12:44.807073</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">381031</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N9462fe5a6f024a6486a95fb88d55a7a3">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-qioo-ebook</rdf:value>
+          <rdf:Description rdf:nodeID="N1cacaea6e9524354b5573e2af628d9bd">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-11-25T14:23:16</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/34444.plucker">
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/34444.epub.noimages">
         <dcterms:isFormatOf rdf:resource="ebooks/34444"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">642126</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-11-27T03:13:04.103784</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N285227bfd7de4a1b907ae075368004be">
+          <rdf:Description rdf:nodeID="N6079cdfa2d88421f85bdc21b1c486426">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.plucker</rdf:value>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-17T02:29:36.998281</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">436042</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/34444/34444-h/34444-h.htm">
+        <dcterms:isFormatOf rdf:resource="ebooks/34444"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1439082</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-11-25T14:23:12</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ne48b7cff25374d58b2c6d7c94873962b">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/34444/34444-8.txt">
-        <dcterms:isFormatOf rdf:resource="ebooks/34444"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-11-25T14:23:12</dcterms:modified>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1129153</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N7d10d1a04efb490a802e03cf5399625c">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/34444/34444-h.zip">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nd0da65ebfab0409dbfcd89533779331d">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Naee36f70c830402ea09dd49bc148334e">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-11-25T14:23:18</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/34444"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5887736</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/34444.epub.images">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1539558</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/34444"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-11-27T03:12:52.807068</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N7109a3354d054e04bf82c190df81d550">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/34444/34444-h/34444-h.htm">
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-11-25T14:23:12</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1439082</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N913a437557a34260a2f4b9e9346e69c4">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
+          <rdf:Description rdf:nodeID="Nf7d336881df84365ab4a5e973283b7f7">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/34444"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/34444/34444-8.zip">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-11-25T14:23:16</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/34444"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N78ecf25464bd48428ca6ababe2e442ae">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">381267</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N7358feedc9c74b2d91cad8f1d19eeaf8">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">127</pgterms:downloads>
-    <dcterms:license rdf:resource="license"/>
-    <marcrel:edt>
-      <pgterms:agent rdf:about="2009/agents/4145">
-        <pgterms:name>Reynolds, Francis J. (Francis Joseph)</pgterms:name>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1937</pgterms:deathdate>
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1867</pgterms:birthdate>
-      </pgterms:agent>
-    </marcrel:edt>
-    <marcrel:edt>
-      <pgterms:agent rdf:about="2009/agents/309">
-        <pgterms:alias>Miller, Francis T.</pgterms:alias>
-        <pgterms:name>Miller, Francis Trevelyan</pgterms:name>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1959</pgterms:deathdate>
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1877</pgterms:birthdate>
-      </pgterms:agent>
-    </marcrel:edt>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/34444.epub.noimages">
-        <dcterms:isFormatOf rdf:resource="ebooks/34444"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N3be44bfa6b7d433e86ebd29cd79db634">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-11-27T03:12:50.318579</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">446720</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:title>The Story of the Great War, Volume 8&#13;
-Victory with the Allies; Armistice; Peace Congress; Canada's War Organizations and vast War Industries; Canadian Battles Overseas</dcterms:title>
   </pgterms:ebook>
   <cc:Work rdf:about="">
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
   </cc:Work>
 </rdf:RDF>
